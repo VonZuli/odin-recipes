@@ -6,6 +6,8 @@
 
 body {
   background-color: hsl(0, 0%, 20%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h1,
@@ -36,11 +38,11 @@ p,
 }
 .recipe-image {
   width: 500px;
-  height: auto;
+  height: 333px;
 }
 
 .recipe-card {
-  padding: 2px;
+  padding: 20px;
   width: 600px;
   border: 5px hsl(0, 84%, 66%) dotted;
 }
