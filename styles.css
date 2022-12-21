@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 20%);
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  color: hsl(0, 84%, 66%);
+}
+
+ul {
+  list-style: none;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+p,
+.ingredients,
+.steps {
+  color: hsl(208, 100%, 97%);
+}
+.steps {
+  width: 500px;
+}
+.recipe-image {
+  width: 500px;
+  height: auto;
+}
+
+.recipe-card {
+  padding: 2px;
+  width: 600px;
+  border: 5px hsl(0, 84%, 66%) dotted;
+}
